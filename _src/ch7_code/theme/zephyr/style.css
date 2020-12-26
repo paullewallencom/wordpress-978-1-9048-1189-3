@@ -1,0 +1,181 @@
+/*
+Theme Name: Zephyr
+Theme URI: http://our_wordpress_url
+Description: Some description about our theme
+Version: 1
+Author: Its You
+Author URI: http://author_website_url
+*/
+
+	body
+	{
+		margin:0px;
+		margin-top: 10px;
+	}
+	#container
+	{
+		width: 900px;
+		margin:auto;
+		border: 0px solid #ccc;
+	}
+
+	
+	#post_container
+	{
+		border: 0px solid #ccc;
+	}
+	
+	.separator
+	{
+		clear:both;
+		margin-top: 10px;
+		margin-bottom:5px;
+		border: 0px solid #ccc;
+	}
+	
+	#left_pan, #right_pan
+	{
+		float: left;
+		overflow: display;
+	}
+	
+	#left_pan
+	{
+		width: 196px;
+		border: 1px solid #000;
+		overflow: visible;
+		elevation:lower;
+	}
+	
+	#right_pan
+	{
+		width: 680px;
+		margin-left: 5px;
+		height: auto;
+	}
+	
+	#footer
+	{
+		clear: both;
+		height: 20px;
+	}
+	
+/* Header Area */
+	
+#header
+{
+	height: 150px;
+	background-image: url("images/bg.gif");
+	border: 1px solid #000;
+	
+}
+
+#header_title
+{
+	font-family:Georgia;
+	font-size: 28px;
+	margin-top: 45px;
+	margin-left: 20px;
+	color: #eee;
+}
+#header_subtitle
+{
+	font-family:Georgia;
+	font-size: 12px;
+	margin-top: 5px;
+	margin-left: 22px;
+	color: #edc;
+}
+
+/* Sidebar */
+
+#left_pan
+{
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-bottom: 2px;
+	padding-top: 2px;
+}
+
+#left_pan h2
+{
+	margin-top: 0px;
+	padding-top: 2px;
+	margin-bottom: 10px;
+	font-size: 16px;
+	padding-bottom: 5px;
+	display: block;
+	border-bottom: 1px solid #ccc;
+	color: #8CBFF8;	
+}
+
+#left_pan ul 
+{
+	padding:0px;
+	margin: 0px; /* for IE */
+	list-style:none;
+}
+
+.sidebar_container
+{
+	/*margin-top: 1px;*/
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #093C76;	
+	color: #eee;
+}
+
+#left_pan a:link, #left_pan a:hover, #left_pan a:visited
+{
+	color: #eee;
+	text-decoration: none;
+}
+
+#left_pan a:hover
+{
+	text-decoration: underline;
+}
+
+/* body */
+
+#right_pan
+{
+	padding-left: 10px;
+}
+
+#right_pan h2
+{
+	margin-top: 0px;
+	font-size: 18px;
+	display: block;
+	margin-bottom: 5px;
+	
+}
+
+#right_pan .meta
+{
+	font-size: 12px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #ABB9C8;
+}
+
+#right_pan a:hover, #right_pan a:link, #right_pan a:visited
+{
+	text-decoration: none;
+	color: #27486E;
+}
+
+#right_pan .comments
+{
+	padding-bottom: 20px;
+}
+
+/* footer */
+#footer{
+	border-top: 1px solid #ccc;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 12px;
+}
